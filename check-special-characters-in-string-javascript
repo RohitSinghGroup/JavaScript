@@ -1,0 +1,10 @@
+function checkSpecialCharacters(e) {
+
+  var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+  var result = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode == 95) || (keyCode >= 97 && keyCode <= 122)); 
+  // (keyCode == 95) is allow to '_' in string.
+		if(!result){   
+		     // your main logic
+		}
+
+}
